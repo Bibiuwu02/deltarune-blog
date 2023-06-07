@@ -2,18 +2,25 @@
 :root {
   font-family: 'Ubuntu', sans-serif;
 }
+:root {
+  --determination: #fc0303;
+  --save-point: #f8fc03;
+  ---downto-thebone: #fcfcfc;
+  --darker-yetdark: #050000;
+  --ruler-box: #19731c;
+}
 .corpo {
   width: 90vw;
   height: auto;
   margin: auto;
-  background-image: url(/img/another-him.jpeg);
+  background-image: url(/img/another-him027.png);
   background-size: cover;
-  background-position: initial;
+  background-position: top;
   background-repeat: no-repeat;
-  color: white;
+  color: var(---downto-thebone);
 }
 .cabecario {
-  background-color: black;
+  background-color: var(--darker-yetdark);
   margin-bottom: 5vh;
   height: 100px;
 }
@@ -21,7 +28,7 @@
   font-size: 3rem;
   line-height: 2.0;
   padding-left: 20px;
-  color: yellow;
+  color: var(--save-point);
   text-decoration: none;
 }
 .navegador ul {
@@ -33,34 +40,34 @@
 .titulo {
   font-size: 2.5rem;
   line-height: 1.4;
-  color: yellow;
+  color: var(--save-point);
 }
 .subtitulo {
   font-size: 2rem;
   line-height: 1.4;
-  color: yellow;
+  color: var(--save-point);
 }
 .paragrafo {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: white;
+  color: var(---downto-thebone);
   text-align: left;
 }
 .paragrafo-coluna {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: white;
+  color: var(---downto-thebone);
   text-align: center;
 }
 .destaque {
   font-size: 1rem;
-  color: red;
+  color: var(--determination);
 }
 .area1 {
   width: 90vw;
   height: auto;
   display: flex;
-  color: black;
+  color: var(--darker-yetdark);
   justify-content: space-around;
 }
 .principal {
@@ -90,35 +97,35 @@
   height: auto;
   border: 5px;
   border-style: solid;
-  border-color: green;
-  background-color: black;
+  border-color: var(--ruler-box);
+  background-color: var(--darker-yetdark);
   padding: 3vw;
 }
 .artigo p {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: white;
+  color: var(---downto-thebone);
 }
 .artigo-sobre {
   width: 60vw;
   height: auto;
-  border: 5px solid green;
+  border: 5px solid var(--ruler-box);
   padding: 3vw;
-  background-color: black;
+  background-color: var(--darker-yetdark);
 }
 .artigo-sobre p {
   font-size: 1.5rem;
   line-height: 1.4;
-  color: white;
+  color: var(---downto-thebone);
 }
 .artigo-coluna {
-  border: 5px solid green;
+  border: 5px solid var(--ruler-box);
   padding: 1vh;
-  background-color: black;
+  background-color: var(--darker-yetdark);
 }
 .rodape {
   margin-top: 5vh;
-  background-color: black;
+  background-color: var(--darker-yetdark);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -128,5 +135,5 @@
 .rodape a {
   font-size: 3rem;
   text-decoration: none;
-  color: red;
+  color: var(--determination);
 }
