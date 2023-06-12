@@ -10,7 +10,7 @@
   --ruler-box: #19731c;
 }
 .corpo {
-  width: 90vw;
+  width: 90%;
   height: auto;
   margin: auto;
   background-color: var(--darker-yetdark);
@@ -65,42 +65,43 @@
   color: var(--determination);
 }
 .area1 {
-  width: 90vw;
-  height: auto;
+  width: 90%;
+  height: 100%;
   display: flex;
   color: var(--darker-yetdark);
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 25px;
 }
 .principal {
-  width: 65vw;
+  width: 60%;
   height: auto;
   display: flex;
   justify-content: left;
+  margin-right: 10.3%;
 }
 .principal-sobre {
-  width: 90vw;
+  width: 90%;
   height: auto;
   display: flex;
   justify-content: center;
 }
 .coluna {
-  padding-left: 5vw;
-  width: 20vw;
+  margin-left: 10.2%;
+  width: 30%;
   height: auto;
   display: flex;
   justify-content: start;
   flex-direction: column;
-  align-items: left;
   text-align: left;
 }
 .artigo {
-  width: 60vw;
+  width: 60%;
   height: auto;
   border: 5px;
   border-style: solid;
   border-color: var(--ruler-box);
   background-color: var(--darker-yetdark);
-  padding: 3vw;
+  padding: 3%;
 }
 .artigo p {
   font-size: 1.5rem;
@@ -125,13 +126,12 @@
   background-color: var(--darker-yetdark);
 }
 .rodape {
-  margin-top: 5vh;
   background-color: var(--darker-yetdark);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100px;
+  height: auto;
 }
 .rodape a {
   font-size: 3rem;
